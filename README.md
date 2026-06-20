@@ -24,6 +24,13 @@
   - `.agents/usage.md`
 - 進度紀錄：`docs/PROGRESS.md`
 
+## Quick Start
+
+1. 先閱讀 `AGENTS.md`
+2. 再閱讀 `.agents/README.md`，確認你要接手的角色
+3. 依照 `.agents/usage.md` 與 `docs/PROGRESS.md` 開始工作
+4. 結束時依 `.agents/handoff.md` 留下交接內容
+
 ## 啟動方式
 
 本專案沒有應用程式或服務需要啟動。
@@ -54,6 +61,32 @@
 - 目前沒有自動測試或自動驗證流程。
 - 專案內容以文件與協作規則為主，尚未包含實際應用功能。
 - 若多位協作者同時編輯，仍需依照 GitHub 的版本控管流程避免衝突。
+
+## Folder Structure
+
+```text
+.
+├── AGENTS.md
+├── README.md
+├── docs/
+│   └── PROGRESS.md
+└── .agents/
+    ├── README.md
+    ├── handoff.md
+    ├── implementation.md
+    ├── planner.md
+    ├── research.md
+    ├── review.md
+    └── usage.md
+```
+
+## How to Work With This Repo
+
+- 先看共用規則，再看角色規則。
+- 修改前先確認這次要動的檔案，避免影響範圍擴大。
+- 修改後要寫清楚改動內容、影響範圍與下一步建議。
+- 若任務已完成，請同步更新 `docs/PROGRESS.md`。
+- 若需要交接，請使用 `.agents/handoff.md` 的格式。
 
 ## 下一步
 
