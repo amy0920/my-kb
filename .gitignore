@@ -4,6 +4,7 @@
 # Environment and secret files
 .env
 .env.*
+.envrc
 *.env
 *.secret
 *.secrets
@@ -21,7 +22,18 @@ credentials.json
 secrets.json
 *.credentials
 
+# Editor backups and temp files
+*.bak
+*.tmp
+*.orig
+*.swp
+*.swo
+*.log
+
+# Common editor folders
+.vscode/
+.idea/
+
 # Editor and OS noise
 .DS_Store
 Thumbs.db
-

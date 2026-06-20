@@ -76,6 +76,12 @@
 3. 先更新 `docs/PROGRESS.md` 再進行內容修改
 4. 確保交接內容可讓下一位接手者直接延續
 
+## Security Reminder
+
+- 不要把私密金鑰、API Key、token、密碼或憑證提交到 repo。
+- 提交前先看 `git status`，確認沒有 `.env`、`*.key`、`*.pem` 這類敏感檔案。
+- 如果要放示例設定，請使用假值或範例值，不要放真實憑證。
+
 ## License
 
 此專案的授權方式會依實際 GitHub repo 設定為準。
