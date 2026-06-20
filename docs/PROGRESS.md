@@ -15,6 +15,7 @@
 - 將 `.agents/README.md` 改成更像目錄首頁的導覽版面，加入快速入口與角色文件表格。
 - 依需求新增 `.gitignore` 與 `SECURITY.md`，明確避免私密金鑰、API Key、憑證與環境檔被提交到 GitHub。
 - 依需求再調整 `.gitignore`，加入常見編輯器暫存檔與備份檔規則，並在 `README.md` 補上安全提醒。
+- 已確認工作區未包含敏感檔案，並將 `SECURITY.md` 加入 `README.md` 導覽清單，方便協作者快速找到安全政策。
 
 ### 重要檔案
 
@@ -43,6 +44,7 @@
 - `.agents/README.md` 適合用更明確的導覽結構，讓新接手者快速找到入口。
 - `.gitignore` 與 `SECURITY.md` 可作為預設防護，降低把敏感資訊提交到 GitHub 的風險。
 - `.gitignore` 可補上常見編輯器暫存檔與備份檔，減少雜訊進入版本控管。
+- `SECURITY.md` 應在 README 中保持可見，讓協作者容易找到提交規範。
 
 ### 目前卡點
 

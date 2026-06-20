@@ -22,6 +22,7 @@
 - 使用說明與索引：
   - `.agents/README.md`
   - `.agents/usage.md`
+- 安全政策：`SECURITY.md`
 - 進度紀錄：`docs/PROGRESS.md`
 
 ## Quick Start
