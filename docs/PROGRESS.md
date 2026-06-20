@@ -8,6 +8,9 @@
 - 依照 GitHub 版本控管與 AI 交接需求，將 `README.md` 改寫成更正式的專案首頁語氣。
 - 驗證遠端 `main` branch 已指向最新 commit，確認 GitHub 上已可見最新版本。
 - 依使用者要求，補上 `Quick Start`、`Folder Structure` 與 `How to Work With This Repo` 三個段落。
+- 將 `.agents/usage.md` 擴寫成更完整的 Agent 工作手冊，補上開始前、工作中、結束時、交接標準與常見錯誤。
+- 進一步將 `README.md` 文字整理成更正式的專案首頁語氣。
+- 再補上 `Repository Status` 與 `Contributing` 段落，讓 README 更接近正式 GitHub 專案頁的結構。
 
 ### 重要檔案
 
@@ -21,6 +24,7 @@
 - `.agents/implementation.md`
 - `.agents/review.md`
 - `docs/PROGRESS.md`
+- `.agents/usage.md`
 
 ### 決策
 
@@ -29,10 +33,12 @@
 - 把修改前後的工作流程寫進共用規則，確保後續 Agent 都能照一致方式協作。
 - `README.md` 需要維持正式、清楚、可交接的語氣。
 - `README.md` 需要保留清楚的 repo 結構與工作流程說明，方便 GitHub 上直接閱讀。
+- `.agents/usage.md` 需要維持可直接交接的手冊語氣，避免過度抽象。
+- README 可加入簡短的專案狀態與協作方式區塊，以符合 GitHub 專案頁常見結構。
 
 ### 目前卡點
 
-- 本輪的 README 結構調整已完成，GitHub 端仍可再人工瀏覽一次頁面以確認版面呈現是否符合預期。
+- 本輪的 README 與工作手冊調整已完成，GitHub 端仍可再人工瀏覽一次頁面以確認版面呈現是否符合預期。
 
 ### 下次接手先看
 
