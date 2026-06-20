@@ -12,18 +12,18 @@
 
 ## 目前功能
 
-- 共用規則文件：`AGENTS.md`
-- 角色規則文件：
-  - `.agents/planner.md`
-  - `.agents/research.md`
-  - `.agents/implementation.md`
-  - `.agents/review.md`
-- 交接模板：`.agents/handoff.md`
-- 使用說明與索引：
-  - `.agents/README.md`
-  - `.agents/usage.md`
-- 安全政策：`SECURITY.md`
-- 進度紀錄：`docs/PROGRESS.md`
+| 項目 | 位置 | 用途 |
+| --- | --- | --- |
+| 共用規則 | `AGENTS.md` | 所有 Agent 的共同作業規範 |
+| 角色規則 | `.agents/planner.md` | 拆解任務、定義步驟與交接點 |
+| 角色規則 | `.agents/research.md` | 蒐集資訊、補背景與整理依據 |
+| 角色規則 | `.agents/implementation.md` | 實作修改與落地變更 |
+| 角色規則 | `.agents/review.md` | 檢查風險、找問題與驗證結果 |
+| 交接模板 | `.agents/handoff.md` | 任務結束時填寫交接內容 |
+| 使用說明 | `.agents/README.md` | 索引與閱讀順序 |
+| 工作手冊 | `.agents/usage.md` | 工作流程、交接標準與常見錯誤 |
+| 安全政策 | `SECURITY.md` | 提交敏感資訊的防護規範 |
+| 進度紀錄 | `docs/PROGRESS.md` | 日期式工作紀錄與交接摘要 |
 
 ## Quick Start
 
@@ -82,6 +82,7 @@
 - 不要把私密金鑰、API Key、token、密碼或憑證提交到 repo。
 - 提交前先看 `git status`，確認沒有 `.env`、`*.key`、`*.pem` 這類敏感檔案。
 - 如果要放示例設定，請使用假值或範例值，不要放真實憑證。
+- 更完整的安全規範請見 `SECURITY.md`。
 
 ## License
 

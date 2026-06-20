@@ -1,4 +1,4 @@
-# Local Git metadata used by the workspace
+# Workspace Git metadata
 .gitrepo/
 
 # Environment and secret files
@@ -34,6 +34,6 @@ secrets.json
 .vscode/
 .idea/
 
-# Editor and OS noise
+# OS noise
 .DS_Store
 Thumbs.db
