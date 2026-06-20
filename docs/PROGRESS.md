@@ -13,6 +13,7 @@
 - 再補上 `Repository Status` 與 `Contributing` 段落，讓 README 更接近正式 GitHub 專案頁的結構。
 - 為 `README.md` 補上 `License` 與 `Ownership` 收尾段落。
 - 將 `.agents/README.md` 改成更像目錄首頁的導覽版面，加入快速入口與角色文件表格。
+- 依需求新增 `.gitignore` 與 `SECURITY.md`，明確避免私密金鑰、API Key、憑證與環境檔被提交到 GitHub。
 
 ### 重要檔案
 
@@ -26,6 +27,8 @@
 - `.agents/implementation.md`
 - `.agents/review.md`
 - `docs/PROGRESS.md`
+- `.gitignore`
+- `SECURITY.md`
 
 ### 決策
 
@@ -37,6 +40,7 @@
 - `.agents/usage.md` 需要維持可直接交接的手冊語氣，避免過度抽象。
 - README 可加入簡短的專案狀態與協作方式區塊，以符合 GitHub 專案頁常見結構。
 - `.agents/README.md` 適合用更明確的導覽結構，讓新接手者快速找到入口。
+- `.gitignore` 與 `SECURITY.md` 可作為預設防護，降低把敏感資訊提交到 GitHub 的風險。
 
 ### 目前卡點
 
