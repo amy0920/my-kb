@@ -11,6 +11,8 @@
 - 將 `.agents/usage.md` 擴寫成更完整的 Agent 工作手冊，補上開始前、工作中、結束時、交接標準與常見錯誤。
 - 進一步將 `README.md` 文字整理成更正式的專案首頁語氣。
 - 再補上 `Repository Status` 與 `Contributing` 段落，讓 README 更接近正式 GitHub 專案頁的結構。
+- 為 `README.md` 補上 `License` 與 `Ownership` 收尾段落。
+- 將 `.agents/README.md` 改成更像目錄首頁的導覽版面，加入快速入口與角色文件表格。
 
 ### 重要檔案
 
@@ -24,7 +26,6 @@
 - `.agents/implementation.md`
 - `.agents/review.md`
 - `docs/PROGRESS.md`
-- `.agents/usage.md`
 
 ### 決策
 
@@ -35,6 +36,7 @@
 - `README.md` 需要保留清楚的 repo 結構與工作流程說明，方便 GitHub 上直接閱讀。
 - `.agents/usage.md` 需要維持可直接交接的手冊語氣，避免過度抽象。
 - README 可加入簡短的專案狀態與協作方式區塊，以符合 GitHub 專案頁常見結構。
+- `.agents/README.md` 適合用更明確的導覽結構，讓新接手者快速找到入口。
 
 ### 目前卡點
 
